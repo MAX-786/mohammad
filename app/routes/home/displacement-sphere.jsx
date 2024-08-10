@@ -62,7 +62,7 @@ export const DisplacementSphere = props => {
     renderer.current.setPixelRatio(1);
     renderer.current.outputColorSpace = LinearSRGBColorSpace;
 
-    camera.current = new PerspectiveCamera(54, innerWidth / innerHeight, 0.1, 100);
+    camera.current = new PerspectiveCamera(84, innerWidth / innerHeight, 0.1, 100);
     camera.current.position.z = 52;
 
     scene.current = new Scene();

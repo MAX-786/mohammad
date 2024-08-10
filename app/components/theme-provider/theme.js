@@ -108,24 +108,36 @@ const tokensMobileSmall = {
 
 // Tokens that change based on theme
 const dark = {
-  background: 'oklch(17.76% 0 0)',
-  backgroundLight: 'oklch(21.78% 0 0)',
-  primary: 'oklch(84.42% 0.19 202.24)',
-  accent: 'oklch(84.42% 0.19 202.24)',
-  error: 'oklch(65.91% 0.249 13.76)',
-  text: 'var(--white)',
+  // Deep blue with a hint of purple
+  background: 'oklch(20% 0.1 250)', 
+  // Slightly lighter version for subtle variation
+  backgroundLight: 'oklch(25% 0.08 250)', 
+  // Vibrant teal 
+  primary: 'oklch(160 0.2 150)', 
+  // Same as primary for consistency
+  accent: 'oklch(160 0.2 150)',
+  // Muted red for errors
+  error: 'oklch(10 0.2 0)', 
+  // Off-white for text on dark background
+  text: 'oklch(95% 0 0)',
   textTitle: 'var(--text)',
   textBody: 'color-mix(in lab, var(--text) 80%, transparent)',
   textLight: 'color-mix(in lab, var(--text) 60%, transparent)',
 };
 
 const light = {
-  background: 'oklch(96.12% 0 0)',
-  backgroundLight: 'var(--white)',
-  primary: 'var(--black)',
-  accent: 'oklch(84.42% 0.19 202.24)',
-  error: 'oklch(63.17% 0.259 25.41)',
-  text: 'var(--black)',
+  // Warm off-white
+  background: 'oklch(90% 0.05 40)', 
+  // Pure white for highlights
+  backgroundLight: 'var(--white)', 
+  // Deep blue, almost black
+  primary: 'oklch(20% 0.1 250)', 
+  // Energetic orange
+  accent: 'oklch(40 0.3 60)', 
+  // Darker orange for errors
+  error: 'oklch(30 0.4 40)', 
+  // Almost black text on light background
+  text: 'oklch(10% 0 0)', 
   textTitle: 'color-mix(in lab, var(--text) 90%, transparent)',
   textBody: 'color-mix(in lab, var(--text) 75%, transparent)',
   textLight: 'color-mix(in lab, var(--text) 55%, transparent)',

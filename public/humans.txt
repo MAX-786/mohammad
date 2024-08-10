@@ -1,25 +1,27 @@
-__  __  __
-\ \ \ \ \/
- \ \/\ \
-  \/  \/
+
+||\\    //||
+|| \\  // ||
+||  \\//  ||
+||        ||
+||        ||
+
 
 The humans.txt file explains the team, technology,
 and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
 
-DESIGNER | デザイナー
+DEVELOPER | デザイナー
 
-Hamish Williams
-Hand crafted design & web development
+Mohammad K. Hussain
+web development
 
-Design tools:
-Figma
-Photoshop
-Blender
+Developer tools:
+VS code
+git
 
-twitter.com/hamishmw
-github.com/hamishmw
+twitter.com/itsMKH072
+github.com/MAX-786
 
 _______________________________________________________________________________
 
