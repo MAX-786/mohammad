@@ -1,9 +1,9 @@
 {
   "name": "portfolio",
-  "homepage": "https://hamishw.com",
-  "description": "Portfolio site for Hamish Williams",
-  "repository": "https://github.com/HamishMW/portfolio.git",
-  "author": "Hamish Williams",
+  "homepage": "",
+  "description": "Portfolio site for Mohammad K. Hussain",
+  "repository": "https://github.com/MAX-786/mohammad.git",
+  "author": "Mohammad K. Hussain",
   "sideEffects": false,
   "type": "module",
   "scripts": {
